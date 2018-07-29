@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- 
+<!--
 /*
 * Copyright (C) 2008 The Android Open Source Project
 *
@@ -15,58 +15,341 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
- --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="application_name" msgid="5181331383435256801">"Fairphone Launcher 3"</string>
-    <string name="folder_name" msgid="7371454440695724752"/>
-    <string name="activity_not_found" msgid="8071924732094499514">"App non installata."</string>
-    <string name="safemode_shortcut_error" msgid="9160126848219158407">"L\'app scaricata è stata disattivata in modalità provvisoria"</string>
-    <string name="toggle_weight_watcher" msgid="5645299835184636119">"Mostra Mem"</string>
-    <string name="long_press_widget_to_add" msgid="7699152356777458215">"Tocca e tieni premuto per scegliere un widget."</string>
-    <string name="widget_dims_format" msgid="2370757736025621599">"%1$d × %2$d"</string>
-    <string name="out_of_space" msgid="4691004494942118364">"Spazio nella schermata Home esaurito."</string>
-    <string name="shortcut_uninstalled" msgid="8176767991305701821">"La scorciatoia \"<xliff:g id="NAME">%s</xliff:g>\" è stata rimossa."</string>
-    <string name="shortcut_duplicate" msgid="9167217446062498127">"Scorciatoia \"<xliff:g id="NAME">%s</xliff:g>\" già presente."</string>
-    <string name="all_apps_home_button_label" msgid="252062713717058851">"Home page"</string>
-    <string name="delete_zone_label_workspace" msgid="4009607676751398685">"Rimuovi"</string>
-    <string name="delete_target_label" msgid="1822697352535677073">"Rimuovi"</string>
-    <string name="delete_target_uninstall_label" msgid="5100785476250872595">"Disinstalla"</string>
-    <string name="info_target_label" msgid="8053346143994679532">"Informazioni app"</string>
-    <string name="permlab_install_shortcut" msgid="5632423390354674437">"aggiunta di scorciatoie"</string>
-    <string name="permdesc_install_shortcut" msgid="923466509822011139">"Consente a un\'app di aggiungere scorciatoie automaticamente."</string>
-    <string name="permlab_uninstall_shortcut" msgid="864595034498083837">"eliminazione di scorciatoie"</string>
-    <string name="permdesc_uninstall_shortcut" msgid="5134129545001836849">"Consente all\'app di rimuovere scorciatoie automaticamente."</string>
-    <string name="permlab_read_settings" msgid="1941457408239617576">"lettura di impostazioni e scorciatoie in Home"</string>
-    <string name="permdesc_read_settings" msgid="5833423719057558387">"Consente all\'app di leggere le impostazioni e le scorciatoie in Home."</string>
-    <string name="permlab_write_settings" msgid="3574213698004620587">"creazione di impostazioni e scorciatoie in Home"</string>
-    <string name="permdesc_write_settings" msgid="5440712911516509985">"Consente all\'app di modificare le impostazioni e le scorciatoie in Home."</string>
-    <string name="gadget_error_text" msgid="6081085226050792095">"Errore durante il caricamento del widget"</string>
-    <string name="gadget_setup_text" msgid="8274003207686040488">"Configurazione"</string>
-    <string name="uninstall_system_app_text" msgid="4172046090762920660">"Questa è un\'app di sistema e non può essere disinstallata."</string>
-    <string name="folder_hint_text" msgid="6617836969016293992">"Cartella senza nome"</string>
-    <string name="default_scroll_format" msgid="7475544710230993317">"Pagina %1$d di %2$d"</string>
-    <string name="workspace_scroll_format" msgid="8458889198184077399">"Schermata Home %1$d di %2$d"</string>
-    <string name="apps_customize_apps_scroll_format" msgid="370005296147130238">"Pagina di applicazioni %1$d di %2$d"</string>
-    <string name="apps_customize_widgets_scroll_format" msgid="3106209519974971521">"Pagina di widget %1$d di %2$d"</string>
-    <string name="first_run_cling_title" msgid="2459738000155917941">"Benvenuto"</string>
-    <string name="migration_cling_title" msgid="9181776667882933767">"Copia le icone delle tue app"</string>
-    <string name="migration_cling_description" msgid="2752413805582227644">"Importare icone e cartelle dalle schermate Home precedenti?"</string>
-    <string name="migration_cling_copy_apps" msgid="946331230090919440">"COPIA ICONE"</string>
-    <string name="migration_cling_use_default" msgid="2626475813981258626">"RICOMINCIA"</string>
-    <string name="workspace_cling_longpress_title" msgid="9173998993909018310">"Sfondi, widget e impostazioni"</string>
-    <string name="workspace_cling_longpress_description" msgid="4119994475505235248">"Tocca lo sfondo e tieni premuto per personalizzare"</string>
-    <string name="workspace_cling_longpress_dismiss" msgid="368660286867640874">"OK"</string>
-    <string name="folder_opened" msgid="94695026776264709">"Cartella aperta, <xliff:g id="WIDTH">%1$d</xliff:g> per <xliff:g id="HEIGHT">%2$d</xliff:g>"</string>
-    <string name="folder_tap_to_close" msgid="1884479294466410023">"Tocca per chiudere la cartella"</string>
-    <string name="folder_tap_to_rename" msgid="9191075570492871147">"Tocca per salvare nuovo nome"</string>
-    <string name="folder_closed" msgid="4100806530910930934">"Cartella chiusa"</string>
-    <string name="folder_renamed" msgid="1794088362165669656">"Nome della cartella sostituito con <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="folder_name_format" msgid="6629239338071103179">"Cartella: <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="widget_button_text" msgid="2880537293434387943">"Widget"</string>
-    <string name="wallpaper_button_text" msgid="8404103075899945851">"Sfondi"</string>
-    <string name="settings_button_text" msgid="8119458837558863227">"Impostazioni"</string>
-    <string name="package_state_unknown" msgid="7592128424511031410">"Sconosciuto"</string>
-    <string name="abandoned_clean_this" msgid="7610119707847920412">"Rimuovi"</string>
-    <string name="abandoned_search" msgid="891119232568284442">"Cerca"</string>
-    <string name="abandoned_promises_title" msgid="7096178467971716750">"L\'app non è installata"</string>
-    <string name="abandoned_promise_explanation" msgid="3990027586878167529">"L\'app per questa icona non è installata. Puoi rimuoverla o cercare l\'app e installarla manualmente."</string>
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <skip/>
+
+    <!-- URI used to import old favorites. [DO NOT TRANSLATE] -->
+
+    <!-- Permission to receive the com.android.launcher3.action.LAUNCH intent -->
+
+    <!-- Permission to receive the com.android.launcher3.action.FIRST_LOAD_COMPLETE intent -->
+
+    <!-- Application name -->
+    <string name="application_name">Launcher Fairphone 2</string>
+    <!-- Accessibility-facing application name -->
+    <!-- Name for all applications running as this uid. -->
+    <!-- Default folder name -->
+    <string name="folder_name"/>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none] -->
+    <string name="activity_not_found">"App non installata."</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">"L\'app scaricata è stata disattivata in modalità provvisoria"</string>
+    <!-- Labels for the tabs in the customize drawer -->
+    <string name="toggle_weight_watcher">"Mostra Mem"</string>
+
+    <!-- AppsCustomize pane -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">"Tocca e tieni premuto per scegliere un widget."</string>
+    <!--
+         Market button text.  The market button text is removed in Launcher.java
+         in the Phone UI. [CHAR LIMIT=32]
+    -->
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <string name="widget_dims_format">"%1$d × %2$d"</string>
+
+    <!-- External-drop widget pick label format string [CHAR_LIMIT=25] -->
+    <!--
+         External-drop widget error string.  This is the error that is shown
+         when you drag and item into the homescreen and it is unable to fit,
+         or an error is encountered. [CHAR_LIMIT=50]
+    -->
+    <!--
+         External-drop widget pick title.  This is shown as the title of the
+         dialog which allows you to pick which widgets to handle a particular
+         drop if there are multiple choices. [CHAR_LIMIT=35]
+    -->
+    <!-- Folders -->
+    <skip/>
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <!-- Title of dialog box -->
+    <!-- Buttons in Rename folder dialog box -->
+    <!-- Buttons in Rename folder dialog box -->
+    <!-- Shortcuts -->
+    <skip/>
+    <!-- Title of dialog box -->
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <!--
+Options in "Add to Home" dialog box; Title of the group containing the list of all shortcut
+s
+    -->
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <!-- Error message when user has filled all their home screens -->
+    <!-- Error message when user has filled a home screen -->
+    <string name="out_of_space">"Spazio nella schermata Home esaurito."</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">"La scorciatoia \"&lt;xliff:g id=\"NAME\" &gt;%s&lt;/xliff:g&gt;\" è stata rimossa."</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">"Scorciatoia \"&lt;xliff:g id=\"NAME\" &gt;%s&lt;/xliff:g&gt;\" già presente."</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <!-- All applications label -->
+    <!--
+         Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus).
+    -->
+    <string name="all_apps_home_button_label">"Home page"</string>
+    <!--
+         Label for trash icon on workspace. Meant to communicate the idea of removing the
+         icon/widget from the home screen, but not permanently. [CHAR_LIMIT=30]
+    -->
+    <string name="delete_zone_label_workspace">"Rimuovi"</string>
+    <!--
+         Label for trash icon in All Apps. The icon/widget will become completely unavailable on the
+         device. [CHAR_LIMIT=30]
+    -->
+    <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">"Rimuovi"</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_uninstall_label">"Disinstalla"</string>
+    <!-- Label for the info icon. [CHAR_LIMIT=30] -->
+    <string name="info_target_label">"Informazioni app"</string>
+
+    <!-- Accessibility: Search button -->
+    <!-- Accessibility: Voice Search button -->
+    <!-- Accessibility: AllApps button -->
+    <!-- Accessibility: Delete button -->
+    <!--
+         Label for trash icon in All Apps, when an updated system app is selected. The update will
+         be uninstalled. [CHAR_LIMIT=30]
+    -->
+    <!-- URL pointing to help text. If empty, no link to help will be created [DO NOT TRANSLATE] -->
+    <!-- Strings for the contextual action bar (CAB) in All Apps -->
+    <skip/>
+    <!--
+         Describes the button for uninstalling the currently selected application.
+         Text is not displayed, but provided for accessibility. [CHAR_LIMIT=none]
+    -->
+    <!--
+         Describes the button for getting details/info about currently selected application.
+         Text is not displayed, but provided for accessibility. [CHAR_LIMIT=none]
+    -->
+    <!-- Appears in the CAB when an app is selected in All Apps or Customize mode. [CHAR_LIMIT=50] -->
+    <!-- Appears in the CAB when a widget is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <!-- Appears in the CAB when a folder is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <!-- Appears in the CAB when a shortcut is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <!-- Permissions: -->
+    <skip/>
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">"aggiunta di scorciatoie"</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">"Consente a un\'app di aggiungere scorciatoie automaticamente."</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">"eliminazione di scorciatoie"</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">"Consente all\'app di rimuovere scorciatoie automaticamente."</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">"lettura di impostazioni e scorciatoie in Home"</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">"Consente all\'app di leggere le impostazioni e le scorciatoie in Home."</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">"creazione di impostazioni e scorciatoie in Home"</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">"Consente all\'app di modificare le impostazioni e le scorciatoie in Home."</string>
+
+    <!-- Widgets: -->
+    <skip/>
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">"Errore durante il caricamento del widget"</string>
+
+    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">"Configurazione"</string>
+
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">"Questa è un\'app di sistema e non può essere disinstallata."</string>
+
+    <!-- Title of the Android Dreams (screensaver) module -->
+    <!-- Default folder title -->
+    <string name="folder_hint_text">"Cartella senza nome"</string>
+
+    <!-- Accessibility -->
+    <skip/>
+
+    <!-- The format string for Workspace descriptions [CHAR_LIMIT=none] -->
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">"Pagina %1$d di %2$d"</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">"Schermata Home %1$d di %2$d"</string>
+    <!-- The format string for AppsCustomize Apps page scroll text [CHAR_LIMIT=none] -->
+    <string name="apps_customize_apps_scroll_format">"Pagina di applicazioni %1$d di %2$d"</string>
+    <!-- The format string for AppsCustomize Apps page scroll text [CHAR_LIMIT=none] -->
+    <string name="apps_customize_widgets_scroll_format">"Pagina di widget %1$d di %2$d"</string>
+
+    <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=30] -->
+    <string name="first_run_cling_title">"Benvenuto"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <!-- The title text for the migration cling [CHAR_LIMIT=30] -->
+    <string name="migration_cling_title">"Copia le icone delle tue app"</string>
+    <!-- The description of what migration does [CHAR_LIMIT=70] -->
+    <string name="migration_cling_description">"Importare icone e cartelle dalle schermate Home precedenti?"</string>
+    <!-- The description of the button to migrate apps from another launcher [CHAR_LIMIT=30] -->
+    <string name="migration_cling_copy_apps">"COPIA ICONE"</string>
+    <!-- The description of the button to use the default launcher layout [CHAR_LIMIT=30] -->
+    <string name="migration_cling_use_default">"RICOMINCIA"</string>
+    <!-- The title text for the workspace cling [CHAR_LIMIT=30] -->
+    <!-- The description of how to use the workspace [CHAR_LIMIT=70] -->
+    <!-- The title text for workspace longpress action [CHAR_LIMIT=40] -->
+    <string name="workspace_cling_longpress_title">"Sfondi, widget e impostazioni"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=70] -->
+    <string name="workspace_cling_longpress_description">"Tocca lo sfondo e tieni premuto per personalizzare"</string>
+    <!-- The description of the button to dismiss the cling [CHAR_LIMIT=30] -->
+    <string name="workspace_cling_longpress_dismiss">"OK"</string>
+    <!-- The title text for the Folder cling [CHAR_LIMIT=30] -->
+    <!-- The description of how to create a folder [CHAR_LIMIT=70] -->
+    <!-- The text on the button to dismiss a cling [CHAR_LIMIT=30] -->
+    <!-- Error message on dummy custom cling layout [DO NOT TRANSLATE] -->
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">"Cartella aperta, &lt;xliff:g id=\"WIDTH\" &gt;%1$d&lt;/xliff:g&gt; per &lt;xliff:g id=\"HEIGHT\" &gt;%2$d&lt;/xliff:g&gt;"</string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">"Tocca per chiudere la cartella"</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">"Tocca per salvare nuovo nome"</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">"Cartella chiusa"</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">"Nome della cartella sostituito con &lt;xliff:g id=\"NAME\" &gt;%1$s&lt;/xliff:g&gt;"</string>
+    <!-- Folder name format -->
+    <string name="folder_name_format">"Cartella: &lt;xliff:g id=\"NAME\" &gt;%1$s&lt;/xliff:g&gt;"</string>
+
+    <!-- Debug-only activity name. [DO NOT TRANSLATE] -->
+    <string name="debug_memory_activity">* HPROF</string>
+
+    <!-- Strings for the customization mode -->
+    <!-- Text for widget add button -->
+    <string name="widget_button_text">"Widget"</string>
+    <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">"Sfondi"</string>
+    <!-- Text for settings button -->
+    <string name="settings_button_text">"Impostazioni"</string>
+
+    <!-- Label on an icon that references an uninstalled package, that is going to be installed at some point. [CHAR_LIMIT=15] -->
+    <!-- Label on an icon that references an uninstalled package, that is currently being downloaded. [CHAR_LIMIT=15] -->
+    <!-- Label on an icon that references an uninstalled package, that is currently being installed. [CHAR_LIMIT=15] -->
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">"Sconosciuto"</string>
+    <!-- Label on an icon that references an uninstalled package, for which restore from market has failed. [CHAR_LIMIT=15] -->
+    <!-- Button for abandoned promises dialog, that removes all abandoned promise icons. -->
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">"Rimuovi"</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">"Cerca"</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">"L\'app non è installata"</string>
+    <!--
+    Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
+    The second "it" refers to the app.
+    -->
+    <string name="abandoned_promise_explanation">"L\'app per questa icona non è installata. Puoi rimuoverla o cercare l\'app e installarla manualmente."</string>
+
+<!-- Fairphone -->
+    <!-- Your Apps -->
+ <!--   <string name="app_switcher_name">Mie app</string>
+    <string name="last_used">Recenti</string>
+    <string name="most_used">Più usate</string>
+    <string name="no_apps_have_been_opened_yet">Ancora nessuna app aperta? Comincia ad usare il tuo telefono e torna su questa schermata.</string>
+
+    &lt;!&ndash; People widget &ndash;&gt;
+    -->
+    <string name="people_widget_name">Miei contatti</string>
+    <string name="recent_contacts">Contatti recenti</string>
+    <string name="most_contacted">Più contattati</string>
+
+    <string name="contacts_title">CONTATTI</string>
+    <string name="not_contacted_anyone_yet">Ancora nessun contatto creato.\n
+                                                                           Comincia ad utilizzare il tuo telefono e torna su questa schermata.</string>
+    <!--
+      &lt;!&ndash; Edit favorites &ndash;&gt;
+      <string name="edit">Modifica</string>
+      <string name="edit_favourites">Modifica Preferiti</string>
+      <string name="drag_here_to_add">Trascina qui per aggiungere</string>
+      <string name="drag_here_to_remove">Trascina qui per rimuovere</string>
+      <string name="add_app">Aggiungi app</string>
+      <string name="edge_swipe_all_apps">Tutte le App</string>
+
+      <string name="easter_egg_toast_theme">Da dove è saltato fuori QUELLO?</string>
+
+      &lt;!&ndash; All apps widget &ndash;&gt;
+      <string name="fp_all_apps_widget_name">Tutte le app</string>
+
+      &lt;!&ndash; FP Aging Drawer &ndash;&gt;
+      <string name="no_active_apps">Non hai ancora nessuna app attiva.</string>
+      <string name="no_idle_apps">Non hai ancora nessuna app inutilizzata. Se non usi un\'app per più di %s, apparirà automaticamente qui.</string>
+      <string name="active_apps">App Attive</string>
+      <string name="idle_apps">App Inutilizzate</string>
+      <string name="pin_target_label">Fissa</string>
+      <string name="unpin_target_label">Non fissare</string>
+      <string name="app_pin_message">App fissate</string>
+      <string name="app_unpin_message">App non fissata</string>
+      <string name="fp_aging_apps_icon_label_new">NUOVA</string>
+      <string name="fp_aging_apps_icon_label_updated">AGGIORNATA</string>
+      <string name="fp_theme_dark">Scuro</string>
+      <string name="fp_theme_light">Chiaro</string>
+      <string name="one_week_idle">Una settimana per l\'inattività</string>
+      <string name="two_weeks_idle">Due settimane per l\'inattività</string>
+      <string name="one_month_idle">Un mese per l\'inattività</string>
+      <string name="lifecyle_time_chooser_easter_egg">Premio sbloccato: Controlla tempo di inattività delle applicazioni</string>
+
+
+
+      &lt;!&ndash; OOBE Texts &ndash;&gt;
+
+  -->
+
+    <string name="oobe_select_language">Scegli Lingua</string>
+    <string name="oobe_setup_wifi">Imposta\n
+                    Wi-Fi</string>
+    <string name="oobe_intro_top">Benvenuto! Stai tenendo tra le tue mani un telefono costruito mettendo al primo posto dei valori sociali. Ma si, ti permette anche di fare delle chiamate.</string>
+    <string name="oobe_intro_bottom">Guarda come usarlo</string>
+
+    <string name="oobe_open_app_text">Rilascia il tuo dito sopra un App per aprirla</string>
+
+    <string name="oobe_edit_drag_intro">Le app possono essere trascinate e rilasciate in modo da essere facilmente modificabili</string>
+    <string name="oobe_edit_drag_add_title">Trascina e rilascia</string>
+    <string name="oobe_edit_drag_add_text">Verso la colonna destra per aggiungere ai preferiti</string>
+
+    <string name="oobe_edit_drag_remove_title">Trascina e rilascia</string>
+    <string name="oobe_edit_drag_remove_text">Verso la colonna sinistra per rimuovere dai preferiti</string>
+
+    <string name="oobe_edit_drag_trade_title">Trascina preferiti</string>
+    <string name="oobe_edit_drag_trade_text">Per scambiare posizione</string>
+    <string name="no_idle_app_found">Nessuna app inutilizzata trovata</string>
+    <string name="no_active_app_found">Nessuna app attiva trovata</string>
+    <string name="magnifying_glass">Lente di ingrandimento</string>
+    <string name="aging_time_menu">Menu di controllo del tempo</string>
+
+    <!--
+
+
+    <string name="oobe_camera_button_title">Pulsante Fotocamera</string>
+    <string name="oobe_camera_button_text">Premi il pulsante sulla destra per aprire la Fotocamera.\n
+                                                                Una volta che l\'app Fotocamera è aperta, premi il pulsante per scattare una foto.</string>
+
+    <string name="oobe_edge_swipe_title">Scorrimento Bordi</string>
+    <string name="oobe_edge_swipe_text">Scorri dal bordo di destra o di sinistra del telefono \n
+                                                         senza rilasciare il dito.\n
+                                                         Per aprire un app, rilascia il dito dalla app selezionata.</string>
+    <string name="oobe_edge_swipe_edit">Modifica</string>
+
+    <string name="oobe_start">Inizia</string>
+    <string name="oobe_back">Indietro</string>
+    <string name="oobe_skip">Salta</string>
+    <string name="oobe_next">Prossimo</string>
+    <string name="oobe_done">Fatto</string>
+    <string name="oobe_try_it_yourself">Prova tu</string>
+-->
+
+    <string name="icon_pack_preference_title">Pacchetto di Icone</string>
+    <string name="icon_pack_preference_summary">Applica un pacchetto di icone</string>
+    <string name="icon_pack_preference_none">Nessuno</string>
+
 </resources>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<!--
 /*
 * Copyright (C) 2013 The Android Open Source Project
 *
@@ -15,22 +15,34 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
- -->
+-->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="wallpaper_instructions" msgid="3524143401182707094">"Imposta sfondo"</string>
-    <string name="image_load_fail" msgid="7538534580694411837">"Impossibile caricare l\'immagine"</string>
-    <string name="wallpaper_load_fail" msgid="4800700444605404650">"Impossibile caricare l\'immagine come sfondo"</string>
-  <plurals name="number_of_items_selected">
-    <item quantity="zero" msgid="9015111147509924344">"%1$d selezionati"</item>
-    <item quantity="one" msgid="8409622005831789373">"%1$d selezionato"</item>
-    <item quantity="other" msgid="479468347731745357">"%1$d selezionati"</item>
-  </plurals>
-    <string name="wallpaper_accessibility_name" msgid="4093221025304876354">"Sfondo %1$d di %2$d"</string>
-    <string name="announce_selection" msgid="123723511662250539">"Elemento selezionato: <xliff:g id="LABEL">%1$s</xliff:g>"</string>
-    <string name="wallpaper_delete" msgid="1459353972739215344">"Elimina"</string>
-    <string name="pick_image" msgid="6704438906027442697">"Scegli l\'immagine"</string>
-    <string name="pick_wallpaper" msgid="4628969645948454559">"Sfondi"</string>
-    <string name="crop_wallpaper" msgid="4882870800623585836">"Ritaglia sfondo"</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button label on Wallpaper picker screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">"Imposta sfondo"</string>
+    <!-- Error message when an image is selected as a wallpaper,
+         but the wallpaper picker cannot load it -->
+    <string name="image_load_fail">"Impossibile caricare l\'immagine"</string>
+    <!-- Error message when an image is selected as a wallpaper,
+         but the wallpaper cropper cannot load it. The user will
+         usually see this when using another app and trying to set
+         an image as the wallpaper -->
+    <string name="wallpaper_load_fail">"Impossibile caricare l\'immagine come sfondo"</string>
+    <!-- Shown when wallpapers are selected in Wallpaper picker -->
+    <!-- String indicating how many media item(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->
+    <!-- Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
+         e.g. "Wallpaper 3 of 10" -->
+    <string name="wallpaper_accessibility_name">"Sfondo %1$d di %2$d"</string>
+    <!-- Accessibility string used to announce that a wallpaper has been selected. -->
+    <string name="announce_selection">"Elemento selezionato: &lt;xliff:g id=\"LABEL\" &gt;%1$s&lt;/xliff:g&gt;"</string>
+
+    <!-- Label on button to delete wallpaper(s) -->
+    <string name="wallpaper_delete">"Elimina"</string>
+    <!-- Label on button in Wallpaper Picker to pick an image -->
+    <string name="pick_image">"Scegli l\'immagine"</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">"Sfondi"</string>
+    <!-- Title of activity for cropping wallpapers -->
+    <string name="crop_wallpaper">"Ritaglia sfondo"</string>
 </resources>

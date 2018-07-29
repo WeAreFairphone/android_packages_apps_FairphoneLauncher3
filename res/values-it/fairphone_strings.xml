@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_switcher_name">Mie app</string>
+    <string name="last_used">Recenti</string>
+    <string name="most_used">Più usate</string>
+    <string name="no_apps_have_been_opened_yet">Ancora nessuna app aperta? Comincia ad usare il tuo telefono e torna su questa schermata.</string>
+    <string name="edit">Modifica</string>
+    <string name="edit_favourites">Modifica Preferiti</string>
+    <string name="drag_here_to_add">Trascina qui per aggiungere</string>
+    <string name="drag_here_to_remove">Trascina qui per rimuovere</string>
+    <string name="add_app">Aggiungi app</string>
+    <string name="edge_swipe_all_apps">Tutte le App</string>
+    <string name="easter_egg_toast_theme">Da dove è saltato fuori QUELLO?</string>
+    <string name="fp_theme_dark">Scuro</string>
+    <string name="fp_theme_light">Chiaro</string>
+    <string name="fp_all_apps_widget_name">Tutte le app</string>
+    <string name="no_active_apps">Non hai ancora nessuna app attiva.</string>
+    <string name="no_idle_apps">Non hai ancora nessuna app inutilizzata. Se non usi un\'app per più di %s, apparirà automaticamente qui.</string>
+    <string name="active_apps">App Attive</string>
+    <string name="idle_apps">App Inutilizzate</string>
+    <string name="pin_target_label">Fissa</string>
+    <string name="unpin_target_label">Non fissare</string>
+    <string name="app_pin_message">App fissate</string>
+    <string name="app_unpin_message">App non fissata</string>
+    <string name="fp_aging_apps_icon_label_new">NUOVA</string>
+    <string name="fp_aging_apps_icon_label_updated">AGGIORNATA</string>
+    <string name="one_week_idle">Una settimana per l\'inattività</string>
+    <string name="two_weeks_idle">Due settimane per l\'inattività</string>
+    <string name="one_month_idle">Un mese per l\'inattività</string>
+    <string name="lifecyle_time_chooser_easter_egg">Premio sbloccato: Controlla tempo di inattività delle applicazioni</string>
+
+    <string name="google_title">Google</string>
+    <string name="oobe_camera_button_title">Pulsante Fotocamera</string>
+    <string name="oobe_camera_button_text">Premi il pulsante sulla destra per aprire la Fotocamera.\n
+                                                                Una volta che l\'app Fotocamera è aperta, premi il pulsante per scattare una foto.</string>
+    <string name="oobe_edge_swipe_title">Scorrimento Bordi</string>
+    <string name="oobe_edge_swipe_text">Scorri dal bordo di destra o di sinistra del telefono \n
+                                                         senza rilasciare il dito.\n
+                                                         Per aprire un app, rilascia il dito dalla app selezionata.</string>
+    <string name="oobe_edge_swipe_edit">Modifica</string>
+    <string name="oobe_start">Inizia</string>
+    <string name="oobe_back">Indietro</string>
+    <string name="oobe_skip">Salta</string>
+    <string name="oobe_next">Prossimo</string>
+    <string name="oobe_done">Fatto</string>
+    <string name="oobe_try_it_yourself">Prova tu</string>
+    <string name="oobe_got_it">Ho capito</string>
+    <string name="oobe_longpress_title">Sfondi, Widgets &amp; Apps</string>
+    <string name="oobe_longpress_description">Tocca e tieni premuta la schermata iniziale per personalizzare</string>
+
+</resources>
